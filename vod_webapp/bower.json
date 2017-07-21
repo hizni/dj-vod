@@ -1,0 +1,19 @@
+{
+  "name": "vod_webapp",
+  "version": "0.0.1",
+  "homepage": " ",
+  "authors": [
+    "Hizni Salih <hizni.salih@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.7"
+  }
+}
