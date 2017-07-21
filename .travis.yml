@@ -4,6 +4,6 @@ python:
 env:
   - DJANGO=1.8.3
 install:
-  - pip install -r requirements.txt --use-mirrors
+  - pip install -r vod_webapp/requirements.txt --use-mirrors
 script:
   - python manage.py test vod_webapp/vod_webapp.tests
