@@ -1,0 +1,34 @@
+{% load static from staticfiles %}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>vod.systems Homepage</title>
+    <meta charset="utf-8">
+
+    <!-- JQuery -->
+
+    <script src="{% static "jquery/dist/jquery.js" %}"></script>
+
+    <!-- Bootstrap -->
+
+    <script type="text/javascript" src="{% static "bootstrap/dist/js/bootstrap.min.js" %}"></script>
+    <link rel="stylesheet" href="{% static "bootstrap/dist/css/bootstrap.min.css" %}">
+    <link rel="stylesheet" href="{% static "bootstrap/dist/css/bootstrap-theme.min.css" %}">
+
+</head>
+<body>
+    <div id="root" class="container">
+        {% block content %} {% endblock %}
+
+        <footer>
+            <div class="navbar navbar-fixed-bottom text-info" role="navigation">
+
+                <div class="container" >
+                    <p>vod.systems 2017</p>
+                </div>
+             </div>
+        </footer>
+    </div>
+</body>
+</html>
