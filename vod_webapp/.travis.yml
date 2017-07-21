@@ -6,4 +6,4 @@ env:
 install:
   - pip install -r requirements.txt --use-mirrors
 script:
-  - manage.py test vod_webapp.tests
+  - python manage.py test vod_webapp.tests
